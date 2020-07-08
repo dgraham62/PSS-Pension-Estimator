@@ -1,0 +1,509 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1C7A02E12498C7320096171C /* PensionCalculationDetailVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C7A02E02498C7320096171C /* PensionCalculationDetailVC.swift */; };
+		1CC3944F24849A7700725B16 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CC3944E24849A7700725B16 /* AppDelegate.swift */; };
+		1CC3945124849A7700725B16 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CC3945024849A7700725B16 /* SceneDelegate.swift */; };
+		1CC3945324849A7700725B16 /* PensionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CC3945224849A7700725B16 /* PensionViewController.swift */; };
+		1CC3945624849A7700725B16 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1CC3945424849A7700725B16 /* Main.storyboard */; };
+		1CC3945824849A7700725B16 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1CC3945724849A7700725B16 /* Assets.xcassets */; };
+		1CC3945B24849A7700725B16 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1CC3945924849A7700725B16 /* LaunchScreen.storyboard */; };
+		CD304C4C24ADCA1B00A51E3C /* ToolbarPickerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD304C4B24ADCA1B00A51E3C /* ToolbarPickerView.swift */; };
+		CD808D1924B43F03003B26B1 /* DesignableImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD808CFB24B43F03003B26B1 /* DesignableImageView.swift */; };
+		CD808D1A24B43F03003B26B1 /* KeyboardLayoutConstraint.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD808CFC24B43F03003B26B1 /* KeyboardLayoutConstraint.swift */; };
+		CD808D1B24B43F03003B26B1 /* TransitionManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD808CFD24B43F03003B26B1 /* TransitionManager.swift */; };
+		CD808D1C24B43F03003B26B1 /* TransitionZoom.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD808CFE24B43F03003B26B1 /* TransitionZoom.swift */; };
+		CD808D1D24B43F03003B26B1 /* ImageLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD808CFF24B43F03003B26B1 /* ImageLoader.swift */; };
+		CD808D1E24B43F03003B26B1 /* Spring.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD808D0024B43F03003B26B1 /* Spring.swift */; };
+		CD808D1F24B43F03003B26B1 /* SpringImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD808D0124B43F03003B26B1 /* SpringImageView.swift */; };
+		CD808D2024B43F03003B26B1 /* DesignableLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD808D0224B43F03003B26B1 /* DesignableLabel.swift */; };
+		CD808D2124B43F03003B26B1 /* SoundPlayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD808D0324B43F03003B26B1 /* SoundPlayer.swift */; };
+		CD808D2224B43F03003B26B1 /* BlurView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD808D0424B43F03003B26B1 /* BlurView.swift */; };
+		CD808D2324B43F03003B26B1 /* DesignableTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD808D0524B43F03003B26B1 /* DesignableTextField.swift */; };
+		CD808D2424B43F03003B26B1 /* SpringButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD808D0624B43F03003B26B1 /* SpringButton.swift */; };
+		CD808D2524B43F03003B26B1 /* SpringTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD808D0724B43F03003B26B1 /* SpringTextView.swift */; };
+		CD808D2624B43F03003B26B1 /* Misc.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD808D0824B43F03003B26B1 /* Misc.swift */; };
+		CD808D2724B43F03003B26B1 /* SpringView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD808D0924B43F03003B26B1 /* SpringView.swift */; };
+		CD808D2824B43F03003B26B1 /* DesignableButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD808D0A24B43F03003B26B1 /* DesignableButton.swift */; };
+		CD808D2924B43F03003B26B1 /* SpringTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD808D0B24B43F03003B26B1 /* SpringTextField.swift */; };
+		CD808D2A24B43F03003B26B1 /* DesignableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD808D0C24B43F03003B26B1 /* DesignableView.swift */; };
+		CD808D2B24B43F03003B26B1 /* DesignableTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD808D0D24B43F03003B26B1 /* DesignableTabBarController.swift */; };
+		CD808D2C24B43F03003B26B1 /* AsyncButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD808D0E24B43F03003B26B1 /* AsyncButton.swift */; };
+		CD808D2D24B43F03003B26B1 /* LoadingView.xib in Resources */ = {isa = PBXBuildFile; fileRef = CD808D0F24B43F03003B26B1 /* LoadingView.xib */; };
+		CD808D2E24B43F03003B26B1 /* SpringLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD808D1024B43F03003B26B1 /* SpringLabel.swift */; };
+		CD808D2F24B43F03003B26B1 /* DesignableTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD808D1224B43F03003B26B1 /* DesignableTextView.swift */; };
+		CD808D3024B43F03003B26B1 /* AutoTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD808D1324B43F03003B26B1 /* AutoTextView.swift */; };
+		CD808D3124B43F03003B26B1 /* SpringAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD808D1424B43F03003B26B1 /* SpringAnimation.swift */; };
+		CD808D3224B43F03003B26B1 /* UnwindSegue.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD808D1524B43F03003B26B1 /* UnwindSegue.swift */; };
+		CD808D3324B43F03003B26B1 /* LoadingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD808D1624B43F03003B26B1 /* LoadingView.swift */; };
+		CD808D3524B43F03003B26B1 /* AsyncImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD808D1824B43F03003B26B1 /* AsyncImageView.swift */; };
+		CD808D3724B44444003B26B1 /* PensionCalculatorFilterVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD808D3624B44444003B26B1 /* PensionCalculatorFilterVC.swift */; };
+		CDFBD04424B2AE7A007D4303 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDFBD04324B2AE7A007D4303 /* Extensions.swift */; };
+		CDFBD04824B2AEF7007D4303 /* CalculationModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDFBD04724B2AEF7007D4303 /* CalculationModel.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1C7A02E02498C7320096171C /* PensionCalculationDetailVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PensionCalculationDetailVC.swift; sourceTree = "<group>"; };
+		1CC3944B24849A7600725B16 /* PSS Pension Estimator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "PSS Pension Estimator.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1CC3944E24849A7700725B16 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		1CC3945024849A7700725B16 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		1CC3945224849A7700725B16 /* PensionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PensionViewController.swift; sourceTree = "<group>"; };
+		1CC3945524849A7700725B16 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		1CC3945724849A7700725B16 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1CC3945A24849A7700725B16 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		1CC3945C24849A7700725B16 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CD304C4B24ADCA1B00A51E3C /* ToolbarPickerView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ToolbarPickerView.swift; sourceTree = "<group>"; };
+		CD808CFB24B43F03003B26B1 /* DesignableImageView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DesignableImageView.swift; sourceTree = "<group>"; };
+		CD808CFC24B43F03003B26B1 /* KeyboardLayoutConstraint.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KeyboardLayoutConstraint.swift; sourceTree = "<group>"; };
+		CD808CFD24B43F03003B26B1 /* TransitionManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TransitionManager.swift; sourceTree = "<group>"; };
+		CD808CFE24B43F03003B26B1 /* TransitionZoom.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TransitionZoom.swift; sourceTree = "<group>"; };
+		CD808CFF24B43F03003B26B1 /* ImageLoader.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageLoader.swift; sourceTree = "<group>"; };
+		CD808D0024B43F03003B26B1 /* Spring.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Spring.swift; sourceTree = "<group>"; };
+		CD808D0124B43F03003B26B1 /* SpringImageView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SpringImageView.swift; sourceTree = "<group>"; };
+		CD808D0224B43F03003B26B1 /* DesignableLabel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DesignableLabel.swift; sourceTree = "<group>"; };
+		CD808D0324B43F03003B26B1 /* SoundPlayer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SoundPlayer.swift; sourceTree = "<group>"; };
+		CD808D0424B43F03003B26B1 /* BlurView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BlurView.swift; sourceTree = "<group>"; };
+		CD808D0524B43F03003B26B1 /* DesignableTextField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DesignableTextField.swift; sourceTree = "<group>"; };
+		CD808D0624B43F03003B26B1 /* SpringButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SpringButton.swift; sourceTree = "<group>"; };
+		CD808D0724B43F03003B26B1 /* SpringTextView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SpringTextView.swift; sourceTree = "<group>"; };
+		CD808D0824B43F03003B26B1 /* Misc.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Misc.swift; sourceTree = "<group>"; };
+		CD808D0924B43F03003B26B1 /* SpringView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SpringView.swift; sourceTree = "<group>"; };
+		CD808D0A24B43F03003B26B1 /* DesignableButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DesignableButton.swift; sourceTree = "<group>"; };
+		CD808D0B24B43F03003B26B1 /* SpringTextField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SpringTextField.swift; sourceTree = "<group>"; };
+		CD808D0C24B43F03003B26B1 /* DesignableView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DesignableView.swift; sourceTree = "<group>"; };
+		CD808D0D24B43F03003B26B1 /* DesignableTabBarController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DesignableTabBarController.swift; sourceTree = "<group>"; };
+		CD808D0E24B43F03003B26B1 /* AsyncButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AsyncButton.swift; sourceTree = "<group>"; };
+		CD808D0F24B43F03003B26B1 /* LoadingView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LoadingView.xib; sourceTree = "<group>"; };
+		CD808D1024B43F03003B26B1 /* SpringLabel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SpringLabel.swift; sourceTree = "<group>"; };
+		CD808D1124B43F03003B26B1 /* Spring.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Spring.h; sourceTree = "<group>"; };
+		CD808D1224B43F03003B26B1 /* DesignableTextView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DesignableTextView.swift; sourceTree = "<group>"; };
+		CD808D1324B43F03003B26B1 /* AutoTextView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AutoTextView.swift; sourceTree = "<group>"; };
+		CD808D1424B43F03003B26B1 /* SpringAnimation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SpringAnimation.swift; sourceTree = "<group>"; };
+		CD808D1524B43F03003B26B1 /* UnwindSegue.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UnwindSegue.swift; sourceTree = "<group>"; };
+		CD808D1624B43F03003B26B1 /* LoadingView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoadingView.swift; sourceTree = "<group>"; };
+		CD808D1824B43F03003B26B1 /* AsyncImageView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AsyncImageView.swift; sourceTree = "<group>"; };
+		CD808D3624B44444003B26B1 /* PensionCalculatorFilterVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PensionCalculatorFilterVC.swift; sourceTree = "<group>"; };
+		CDFBD04324B2AE7A007D4303 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		CDFBD04724B2AEF7007D4303 /* CalculationModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalculationModel.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1CC3944824849A7600725B16 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1CC3944224849A7600725B16 = {
+			isa = PBXGroup;
+			children = (
+				1CC3944D24849A7600725B16 /* Pss Pension Estimator */,
+				1CC3944C24849A7600725B16 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1CC3944C24849A7600725B16 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1CC3944B24849A7600725B16 /* PSS Pension Estimator.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1CC3944D24849A7600725B16 /* Pss Pension Estimator */ = {
+			isa = PBXGroup;
+			children = (
+				1CC3944E24849A7700725B16 /* AppDelegate.swift */,
+				1CC3945024849A7700725B16 /* SceneDelegate.swift */,
+				CDFBD04624B2AE85007D4303 /* Helper */,
+				CDFBD04524B2AE7F007D4303 /* Model */,
+				CDFBD04924B2AFC3007D4303 /* Controller */,
+				1CC3945424849A7700725B16 /* Main.storyboard */,
+				1CC3945724849A7700725B16 /* Assets.xcassets */,
+				1CC3945924849A7700725B16 /* LaunchScreen.storyboard */,
+				1CC3945C24849A7700725B16 /* Info.plist */,
+			);
+			path = "Pss Pension Estimator";
+			sourceTree = "<group>";
+		};
+		CD808CFA24B43F03003B26B1 /* Spring */ = {
+			isa = PBXGroup;
+			children = (
+				CD808CFB24B43F03003B26B1 /* DesignableImageView.swift */,
+				CD808CFC24B43F03003B26B1 /* KeyboardLayoutConstraint.swift */,
+				CD808CFD24B43F03003B26B1 /* TransitionManager.swift */,
+				CD808CFE24B43F03003B26B1 /* TransitionZoom.swift */,
+				CD808CFF24B43F03003B26B1 /* ImageLoader.swift */,
+				CD808D0024B43F03003B26B1 /* Spring.swift */,
+				CD808D0124B43F03003B26B1 /* SpringImageView.swift */,
+				CD808D0224B43F03003B26B1 /* DesignableLabel.swift */,
+				CD808D0324B43F03003B26B1 /* SoundPlayer.swift */,
+				CD808D0424B43F03003B26B1 /* BlurView.swift */,
+				CD808D0524B43F03003B26B1 /* DesignableTextField.swift */,
+				CD808D0624B43F03003B26B1 /* SpringButton.swift */,
+				CD808D0724B43F03003B26B1 /* SpringTextView.swift */,
+				CD808D0824B43F03003B26B1 /* Misc.swift */,
+				CD808D0924B43F03003B26B1 /* SpringView.swift */,
+				CD808D0A24B43F03003B26B1 /* DesignableButton.swift */,
+				CD808D0B24B43F03003B26B1 /* SpringTextField.swift */,
+				CD808D0C24B43F03003B26B1 /* DesignableView.swift */,
+				CD808D0D24B43F03003B26B1 /* DesignableTabBarController.swift */,
+				CD808D0E24B43F03003B26B1 /* AsyncButton.swift */,
+				CD808D0F24B43F03003B26B1 /* LoadingView.xib */,
+				CD808D1024B43F03003B26B1 /* SpringLabel.swift */,
+				CD808D1124B43F03003B26B1 /* Spring.h */,
+				CD808D1224B43F03003B26B1 /* DesignableTextView.swift */,
+				CD808D1324B43F03003B26B1 /* AutoTextView.swift */,
+				CD808D1424B43F03003B26B1 /* SpringAnimation.swift */,
+				CD808D1524B43F03003B26B1 /* UnwindSegue.swift */,
+				CD808D1624B43F03003B26B1 /* LoadingView.swift */,
+				CD808D1824B43F03003B26B1 /* AsyncImageView.swift */,
+			);
+			path = Spring;
+			sourceTree = "<group>";
+		};
+		CDFBD04524B2AE7F007D4303 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				CDFBD04724B2AEF7007D4303 /* CalculationModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		CDFBD04624B2AE85007D4303 /* Helper */ = {
+			isa = PBXGroup;
+			children = (
+				CD808CFA24B43F03003B26B1 /* Spring */,
+				CD304C4B24ADCA1B00A51E3C /* ToolbarPickerView.swift */,
+				CDFBD04324B2AE7A007D4303 /* Extensions.swift */,
+			);
+			path = Helper;
+			sourceTree = "<group>";
+		};
+		CDFBD04924B2AFC3007D4303 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				1CC3945224849A7700725B16 /* PensionViewController.swift */,
+				1C7A02E02498C7320096171C /* PensionCalculationDetailVC.swift */,
+				CD808D3624B44444003B26B1 /* PensionCalculatorFilterVC.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1CC3944A24849A7600725B16 /* Pss Pension Estimator */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1CC3945F24849A7700725B16 /* Build configuration list for PBXNativeTarget "Pss Pension Estimator" */;
+			buildPhases = (
+				1CC3944724849A7600725B16 /* Sources */,
+				1CC3944824849A7600725B16 /* Frameworks */,
+				1CC3944924849A7600725B16 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pss Pension Estimator";
+			productName = "Pss Pension Estimator";
+			productReference = 1CC3944B24849A7600725B16 /* PSS Pension Estimator.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1CC3944324849A7600725B16 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1150;
+				LastUpgradeCheck = 1150;
+				ORGANIZATIONNAME = "David Graham";
+				TargetAttributes = {
+					1CC3944A24849A7600725B16 = {
+						CreatedOnToolsVersion = 11.5;
+					};
+				};
+			};
+			buildConfigurationList = 1CC3944624849A7600725B16 /* Build configuration list for PBXProject "Pss Pension Estimator" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1CC3944224849A7600725B16;
+			productRefGroup = 1CC3944C24849A7600725B16 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1CC3944A24849A7600725B16 /* Pss Pension Estimator */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1CC3944924849A7600725B16 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1CC3945B24849A7700725B16 /* LaunchScreen.storyboard in Resources */,
+				1CC3945824849A7700725B16 /* Assets.xcassets in Resources */,
+				1CC3945624849A7700725B16 /* Main.storyboard in Resources */,
+				CD808D2D24B43F03003B26B1 /* LoadingView.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1CC3944724849A7600725B16 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CD808D1924B43F03003B26B1 /* DesignableImageView.swift in Sources */,
+				CD808D2324B43F03003B26B1 /* DesignableTextField.swift in Sources */,
+				CD808D2524B43F03003B26B1 /* SpringTextView.swift in Sources */,
+				CD808D2F24B43F03003B26B1 /* DesignableTextView.swift in Sources */,
+				CD808D2A24B43F03003B26B1 /* DesignableView.swift in Sources */,
+				CD808D2424B43F03003B26B1 /* SpringButton.swift in Sources */,
+				1CC3945324849A7700725B16 /* PensionViewController.swift in Sources */,
+				CD808D2124B43F03003B26B1 /* SoundPlayer.swift in Sources */,
+				CD808D1D24B43F03003B26B1 /* ImageLoader.swift in Sources */,
+				CDFBD04424B2AE7A007D4303 /* Extensions.swift in Sources */,
+				CD808D1C24B43F03003B26B1 /* TransitionZoom.swift in Sources */,
+				CD808D1E24B43F03003B26B1 /* Spring.swift in Sources */,
+				CD808D2824B43F03003B26B1 /* DesignableButton.swift in Sources */,
+				CD808D3524B43F03003B26B1 /* AsyncImageView.swift in Sources */,
+				CDFBD04824B2AEF7007D4303 /* CalculationModel.swift in Sources */,
+				CD808D3324B43F03003B26B1 /* LoadingView.swift in Sources */,
+				CD808D2924B43F03003B26B1 /* SpringTextField.swift in Sources */,
+				CD304C4C24ADCA1B00A51E3C /* ToolbarPickerView.swift in Sources */,
+				CD808D1A24B43F03003B26B1 /* KeyboardLayoutConstraint.swift in Sources */,
+				CD808D1F24B43F03003B26B1 /* SpringImageView.swift in Sources */,
+				CD808D2024B43F03003B26B1 /* DesignableLabel.swift in Sources */,
+				CD808D1B24B43F03003B26B1 /* TransitionManager.swift in Sources */,
+				CD808D2224B43F03003B26B1 /* BlurView.swift in Sources */,
+				CD808D2724B43F03003B26B1 /* SpringView.swift in Sources */,
+				1C7A02E12498C7320096171C /* PensionCalculationDetailVC.swift in Sources */,
+				CD808D2B24B43F03003B26B1 /* DesignableTabBarController.swift in Sources */,
+				CD808D3024B43F03003B26B1 /* AutoTextView.swift in Sources */,
+				CD808D2E24B43F03003B26B1 /* SpringLabel.swift in Sources */,
+				CD808D3224B43F03003B26B1 /* UnwindSegue.swift in Sources */,
+				CD808D2C24B43F03003B26B1 /* AsyncButton.swift in Sources */,
+				CD808D2624B43F03003B26B1 /* Misc.swift in Sources */,
+				CD808D3724B44444003B26B1 /* PensionCalculatorFilterVC.swift in Sources */,
+				1CC3944F24849A7700725B16 /* AppDelegate.swift in Sources */,
+				1CC3945124849A7700725B16 /* SceneDelegate.swift in Sources */,
+				CD808D3124B43F03003B26B1 /* SpringAnimation.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		1CC3945424849A7700725B16 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1CC3945524849A7700725B16 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		1CC3945924849A7700725B16 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1CC3945A24849A7700725B16 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1CC3945D24849A7700725B16 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		1CC3945E24849A7700725B16 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1CC3946024849A7700725B16 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = YJ284HQ4XH;
+				INFOPLIST_FILE = "Pss Pension Estimator/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.DavidGraham.Pss-Pension-Estimator";
+				PRODUCT_NAME = "PSS Pension Estimator";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		1CC3946124849A7700725B16 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = YJ284HQ4XH;
+				INFOPLIST_FILE = "Pss Pension Estimator/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.DavidGraham.Pss-Pension-Estimator";
+				PRODUCT_NAME = "PSS Pension Estimator";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1CC3944624849A7600725B16 /* Build configuration list for PBXProject "Pss Pension Estimator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1CC3945D24849A7700725B16 /* Debug */,
+				1CC3945E24849A7700725B16 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1CC3945F24849A7700725B16 /* Build configuration list for PBXNativeTarget "Pss Pension Estimator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1CC3946024849A7700725B16 /* Debug */,
+				1CC3946124849A7700725B16 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1CC3944324849A7600725B16 /* Project object */;
+}
